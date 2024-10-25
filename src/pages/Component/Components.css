@@ -1,0 +1,45 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+  text-align: center;
+} */
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contain01{
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .contain03{
+    width: 100%;
+  }
+  .componentcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    background: url('./public/img/wallpaper_1920x1080_light.png') no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+  }
+  
+  .footer-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid red;
+  }
