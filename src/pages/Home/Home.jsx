@@ -6,7 +6,7 @@ function Home() {
             <div className="profile-container">
       <div className="profile-image-section">
         <img 
-          src="./public/img/profile.jpg" 
+          src="./img/profile.jpg" 
           alt="Chonlakorn Bualuang" 
           className="profile-image"
         />
